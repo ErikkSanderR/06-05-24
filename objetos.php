@@ -1,5 +1,5 @@
 <?php
-class Fruta {
+class Celular {
     public $nome;
     public $estilos;
 
@@ -12,15 +12,17 @@ class Fruta {
         return $this->nome;
     }
 
-    function get_cor() {
+    function get_estilos() {
         return $this->estilos;
     }
 }
 
-$celular = new Celures("Celular", "Preto");
+$celular = new Celular("Celular", "Preto");
 
 echo "O nome da marca do aparelho é: " . $celular->get_nome();
 
-echo"<br/>",
+echo"<br/>";
 
 echo "A cor do aparelho é: " . $celular->get_estilos();
+
+?>
